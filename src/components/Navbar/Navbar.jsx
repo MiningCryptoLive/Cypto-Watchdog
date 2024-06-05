@@ -35,13 +35,13 @@ const Navbar = () => {
       <p className='logo '>Crypto Watchdog <img src={dog_icon} alt="" /></p>
       </Link>
       <div className='nav-right'>
-        <select onChange={currencyHandler}>
+        <select onChange={currencyHandler} className='selectbar'>
             <option value="usd">USD</option>
             <option value="eur">EUR</option>
             <option value="inr">INR</option>
         </select>
         <Link to={"/"}>
-        <button>Home<img src={home_icon} alt="" /></button>
+        <button><img src={home_icon} alt="" /></button>
         </Link>
       </div>
     </div>
