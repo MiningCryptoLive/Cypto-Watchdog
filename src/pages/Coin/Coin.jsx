@@ -62,16 +62,19 @@ if(coinData && historicalData){
         <li>{currency.symbol} {coinData.market_data.current_price[currency.name].toLocaleString()}</li>
       </ul>
       <ul>
-        <li>Market cap</li>
+        <li>Market Cap</li>
         <li>{currency.symbol} {coinData.market_data.market_cap[currency.name].toLocaleString()}</li>
       </ul>
       <ul>
-        <li>24 Hour high</li>
+        <li>24 Hour High</li>
         <li>{currency.symbol} {coinData.market_data.high_24h[currency.name].toLocaleString()}</li>
       </ul>
       <ul>
-        <li>24 Hour low</li>
+        <li>24 Hour Low</li>
         <li>{currency.symbol} {coinData.market_data.low_24h[currency.name].toLocaleString()}</li>
+      </ul>
+      <li>All Time High</li>
+        <li>{currency.symbol} {coinData.market_data.all_time_high[currency.name].toLocaleString()}</li>
       </ul>
     </div>
 
