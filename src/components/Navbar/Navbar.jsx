@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import "./Navbar.css"
 import dog_icon from "../../assets/dog.png"
+import logo from "../../assets/logo.png"
 import home_icon from "../../assets/home_icon.png"
 import { CoinContext } from '../../context/CoinContext'
 import { Link } from 'react-router-dom'
