@@ -45,6 +45,7 @@ const Home = () => {
                 <button type="submit">Search</button>
             </form>
         </div>
+      <div className='hero'>TOP 10 CRYPTOCURRENCIES</div>div>
         <div className="crypto-table">
             <div className="table-layout">
                 <p>#</p>
