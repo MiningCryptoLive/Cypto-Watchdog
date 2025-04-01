@@ -73,6 +73,7 @@ if(coinData && historicalData){
         <li>24 Hour Low</li>
         <li>{currency.symbol} {coinData.market_data.low_24h[currency.name].toLocaleString()}</li>
       </ul>
+      <ul>
       <li>All Time High</li>
         <li>{currency.symbol} {coinData.market_data.all_time_high[currency.name].toLocaleString()}</li>
       </ul>
