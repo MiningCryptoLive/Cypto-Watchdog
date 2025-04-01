@@ -77,6 +77,10 @@ if(coinData && historicalData){
       <li>All Time High</li>
         <li>{currency.symbol} {coinData.market_data.ath[currency.name].toLocaleString()}</li>
       </ul>
+      <ul>
+      <li>All Time Low</li>
+        <li>{currency.symbol} {coinData.market_data.atl[currency.name].toLocaleString()}</li>
+      </ul>
     </div>
 
     </div>
